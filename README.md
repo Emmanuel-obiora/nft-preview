@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Emmanuel-obiora/nft-preview)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://emmanuel-obiora.github.io/nft-preview/)
 
 ## My process
 
