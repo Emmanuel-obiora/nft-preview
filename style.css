@@ -21,14 +21,121 @@ body{
     min-height: 100vh;
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
+    background: var(--main-BG);
+    align-items: center;
+    justify-content: center;
+}
+
+.nft-card{
+    display: grid;
+    row-gap: 1rem;
+    width: 300px;
+    background: var(--card-BG);
+    padding: 1.3rem;
+    border-radius: 10px;
+}
+
+.img-cover{
+    position: relative;
+}
+
+.img-cover > img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 255, 247, .5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal:hover{
+    background: transparent;
+    /* cursor: default; */
+}
+
+.modal:hover .eye{
+    display: none;
+}
+
+label{
+    color: var(--White);
+    cursor: pointer;
+    width: max-content;
+    font-size: 20px;
+}
+label:hover{
+    color: var(--Cyan);
+}
+
+.nft-card > p{
+    color: var(--Soft-blue);
+    font-size: 14px;
+}
+
+.coin-stat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    color: var(--Soft-blue);
+}
+
+.eth{
+    display: flex;
+    gap: .4rem;
+    cursor: pointer;
+}
+.eth:hover{
+    color: var(--Cyan);
+}
+
+.timing{
+    display: flex;
+    gap: .4rem;
+}
+
+.hr-rule{
+    background: var(--line);
+    height: 1px;
+    border: none;
+}
+
+.user-profile{
+    display: flex;
+    gap: .6rem;
+    color: var(--Soft-blue);
+    align-items: center;
+    font-size: 14px;
+}
+
+.user-profile > img{
+    max-width: 11%;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+.user-profile p span{
+    color: var(--White);
+    cursor: pointer;
+}
+.user-profile p span:hover{
+    color: var(--Cyan);
 }
 
 footer{
     margin-top: auto;
+    color: var(--White);
 }
-
-
-
 
 .attribution { 
     font-size: 11px; 
